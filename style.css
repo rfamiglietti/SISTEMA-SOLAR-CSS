@@ -1,0 +1,154 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.sistema-solar {
+    position: relative;
+    width: 600px;
+    height: 600px;
+}
+
+.orbita {
+    position: absolute;
+    border: 1px dashed white;
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#orbita-mercurio {
+    width: 120px;
+    height: 120px;
+}
+
+#orbita-venus {
+    width: 180px;
+    height: 180px;
+}
+
+#orbita-terra {
+    width: 240px;
+    height: 240px;
+}
+
+#orbita-marte {
+    width: 300px;
+    height: 300px;
+}
+
+#orbita-jupiter {
+    width: 360px;
+    height: 360px;
+}
+
+#orbita-saturno {
+    width: 420px;
+    height: 420px;
+}
+
+#orbita-urano {
+    width: 480px;
+    height: 480px;
+}
+
+#orbita-netuno {
+    width: 540px;
+    height: 540px;
+}
+
+.planeta {
+    position: absolute;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#mercurio {
+    width: 20px;
+    height: 20px;
+    background: gray;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#venus {
+    width: 30px;
+    height: 30px;
+    background: orange;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#terra {
+    width: 35px;
+    height: 35px;
+    background: blue;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#marte {
+    width: 25px;
+    height: 25px;
+    background: red;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#jupiter {
+    width: 50px;
+    height: 50px;
+    background: brown;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#saturno {
+    width: 45px;
+    height: 45px;
+    background: yellow;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#urano {
+    width: 40px;
+    height: 40px;
+    background: lightblue;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#netuno {
+    width: 35px;
+    height: 35px;
+    background: darkblue;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
